@@ -1,0 +1,48 @@
+/* Stili di base per l'intestazione */
+header {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Stile dell'immagine centrata all'interno del tag <figure> */
+.aligncenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Stile per le immagini */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Stili per i titoli all'interno dell'intestazione */
+header h4 {
+  font-size: 1.2em;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Stili per i pulsanti */
+.buttons {
+  margin-top: 10px;
+}
+
+/* Stile per ogni pulsante */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0073e6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Effetto hover
